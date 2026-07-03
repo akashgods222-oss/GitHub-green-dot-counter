@@ -1,0 +1,63 @@
+/* Poori screen ko center mein lane ke liye */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a; /* Dark theme blackish-blue */
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card jisme counter rakha hai */
+.counter-card {
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 1px solid #334155;
+}
+
+h1 {
+    color: #38bdf8; /* Sky blue text */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Display Number waala text */
+#btnB {
+    font-size: 28px;
+    font-weight: bold;
+    color: #22c55e; /* Green color for GitHub feel 🟢 */
+    margin-bottom: 25px;
+    background: #14532d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Dhasu Button */
+#btnA {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Button par hover karne ka effect */
+#btnA:hover {
+    background-color: #0ea5e9;
+    transform: scale(1.05); /* Halka sa bada hoga check karne par */
+}
+
+#btnA:active {
+    transform: scale(0.95); /* Click karne par dabega */
+}
