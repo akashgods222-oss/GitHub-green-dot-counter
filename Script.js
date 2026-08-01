@@ -1,7 +1,7 @@
 let count=0;
 document.addEventListener("DOMContentLoaded",() => {
     const myBtn=document.getElementById("btnA");
-    const counter=document.getElementById ("btnB");
+    const counter=document.getElementById ("btnC");
    
     myBtn.addEventListener("click",() =>{
     count++;
